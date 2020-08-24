@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["XRYDu"]); }
+
+__d("CatalogSubverticalBeautyPlugin",["CatalogSubverticalGating","CatalogVertical"],(function(a,b,c,d,e,f){"use strict";a={type:"catalogSubvertical",key:"commerceBeauty",vertical:b("CatalogVertical").COMMERCE,subvertical:"beauty",displayOrder:19,shouldDisplay:b("CatalogSubverticalGating").showUpdatedFeedSpec()};e.exports=a}),null);

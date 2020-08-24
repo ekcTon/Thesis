@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["31NlN"]); }
+
+__d("GeoPrivateWebCSSTintedIcon.react",["GeoPrivateWebIconUtils","React","stylex"],(function(a,b,c,d,e,f){"use strict";var g,h=b("GeoPrivateWebIconUtils").getPositionFromIcon,i=b("GeoPrivateWebIconUtils").getSizeFromIcon,j=b("GeoPrivateWebIconUtils").getSrcFromIcon,k={cssMask:{backgroundColor:"jwy3ehce"}};function a(a,c){var d=a.fallback,e=a.icon;a=a.xstyle;var f=j(e),l=i(e),m=h(e);return f==null?d:b("React").jsx("div",{className:(g||(g=b("stylex")))(k.cssMask,a),ref:c,style:{width:e.size,height:e.size,WebkitMaskImage:f!=null?"url("+f+")":void 0,WebkitMaskSize:l&&l.width+"px "+l.height+"px",WebkitMaskPosition:m&&m.x+"px "+m.y+"px"}})}e.exports=b("React").forwardRef(a)}),null);
